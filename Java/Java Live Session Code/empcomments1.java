@@ -62,9 +62,9 @@ public class empcomments1 {
                 case 9:
                     calculateAverageAge(fileName);
                     break;
-                // case 10:
-                //     calculateAverageSalary(fileName);
-                //     break;
+                case 10:
+                    calculateAverageSalary(fileName);
+                    break;
                 case 11:
                     findEmployeesAboveSalaryThreshold(fileName, scanner);
                     break;
@@ -95,6 +95,9 @@ public class empcomments1 {
             
         }
     }
+
+    // Case 1 
+    
     public static void addNewEmployee(String fileName, Scanner scanner){
                 System.out.println("Enter the name of the employee: ");
                 String employeeName = scanner.nextLine();
@@ -107,17 +110,20 @@ public class empcomments1 {
                 File f = new File(fileName); 
                 if (f.length() == 0) {
                     bw.write("Name,Age,Salary");
-                    bw.newLine();
+                    bw.close();
                 }
-                bw.write(employeeName+","+ employeeAge+","+ employeeSalary);
                 bw.newLine();
-                bw.close();
+                bw.write(employeeName+","+ employeeAge+","+ employeeSalary);
+                
+                
                 System.out.println("Employee details updated");
             } catch (IOException e) {
                 System.err.println("An error occurred while writing to the file: " + e.getMessage());
             }
             }
     
+            // Case 2 
+
     public static void displayAllEmployees(String fileName) {
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
             String line;
@@ -176,31 +182,7 @@ public class empcomments1 {
     }
 
 
-    public static void calculateTotalSalary(String fileName) {
-        String line;
-
-        try {
-            int Totalsalary = 0;
-            BufferedReader br = new BufferedReader(new FileReader(fileName));
-            br.readLine();
-            
-            while ((line = br.readLine()) != null) {
-
-                String[] data = line.split(",");
-                int sal = Integer.parseInt(data[2]);
-                Totalsalary = Totalsalary + sal;
-
-            }
-            System.out.println("Total salary : " + Totalsalary);
-
-            br.close();
-
-        } catch (Exception e) {
-
-        }
-    }   
-
-    public static void findEmployeeWithLowestSalary(String fileName){
+     public static void findEmployeeWithLowestSalary(String fileName){
          try {
 
             FileReader fr = new FileReader(fileName);
@@ -235,6 +217,32 @@ public class empcomments1 {
         
 
     }
+    
+    public static void calculateTotalSalary(String fileName) {
+        String line;
+
+        try {
+            int Totalsalary = 0;
+            BufferedReader br = new BufferedReader(new FileReader(fileName));
+            br.readLine();
+            
+            while ((line = br.readLine()) != null) {
+
+                String[] data = line.split(",");
+                int sal = Integer.parseInt(data[2]);
+                Totalsalary = Totalsalary + sal;
+
+            }
+            System.out.println("Total salary : " + Totalsalary);
+
+            br.close();
+
+        } catch (Exception e) {
+
+        }
+    }   
+
+   
 
     public static void calculateAverageAge(String fileName) {
 
@@ -267,23 +275,40 @@ public class empcomments1 {
 
     }
 
-    // public static void calculateAverageSalary(String fileName){
-    //     try (BufferedReader br = new BufferedReader(new FileReader(fileName))){
-    //         String line;
-    //         boolean isFirstLine = true;
-    //         double avg;
-    //         int count = 0;
-    //         int totalsalary = 0;
+    public static void calculateAverageSalary(String fileName){
+        try (BufferedReader br = new BufferedReader(new FileReader(fileName))){
+            String line;
+            boolean isFirstLine = true;
+            double avg;
+            int count = 0;
+            int totalsalary = 0;
 
+            while ((line = br.readLine()) != null) {
+                if (isFirstLine) {
+                    isFirstLine = false;
+                     continue;  //skip the header line
 
+                }
 
+                String[] employeeData = line.split(",");
+                int salary = Integer.parseInt(employeeData[1].trim());
+                totalsalary += salary;
+                count++; 
+
+            }
+
+            avg = totalsalary / count;
+
+            System.out.println("Average Salary of the Emloyees is : " + avg);
+
+        }catch (Exception e) {
+            // TODO: handle exception
+        }
 
         
-    //     }catch (Exception e) {
-    //         // TODO: handle exception
-    //     }
-    // }
+    }
 
+    
     // case 11 
     private static void findEmployeesAboveSalaryThreshold(String fileName, Scanner scanner) {
         try {
