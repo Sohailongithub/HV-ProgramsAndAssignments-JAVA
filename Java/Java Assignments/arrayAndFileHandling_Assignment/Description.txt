@@ -1,0 +1,259 @@
+Question 1:   Library Catalog Application using Arrays
+
+Points: 10
+
+Skill Mapping: Intermediate
+
+Description: Create a Console based menu driven simple catalog application for a small library in 
+Java using multi-dimensional arrays. 
+
+The application should allow library staff to manage and organize the library's collection of books. 
+The functionality of the application should include the ability to display the list of all books, 
+issue or return a book in the system.
+
+In addition, the application should also check whether the returned book is within a 7-day period 
+from the date it was issued. Otherwise, a charge of Rs. 10 per day will be applied.
+
+
+Here are the specific requirements for the library catalog app:
+
+Data Structure - Use a multi-dimensional array to store the books in the library catalog. 
+Each element of the array will represent a book information as given below -
+
+Each book should have the following attributes: bookID, title, author, availability status and issue date.
+
+Availability Status - The availability status of each book in the library catalog 
+should be represented as either "available" or the student ID of the borrower to whom the book is issued. 
+This update allows for tracking the availability of books and identifying the borrower if the book is 
+currently checked out.
+
+Issue Date - If a book's availability status is "available," the issue date should be recorded as "Null." 
+When issuing a book, the application should capture the current date and assign it as the issue date 
+for that particular book.
+
+Charges Calculation - During the book return process, the application should compare 
+the issue date with the current date to determine if the time difference exceeds 
+the allowed period of 7 days. If the difference exceeds 7 days, the application 
+should calculate the applicable charges.
+
+
+Menu System:
+
+Display all books - Prints the details of all the books 
+in the catalog, including title, author, bookID, availability status and issue date.
+
+Issue a book - Issue the book to a Student. 
+Update the studentID to the availability status and issue date of a corresponding book.
+
+Return a book - Calculate the delayed charges if applicable and 
+update the availability status back as “available” for the corresponding book.
+
+Exiting the Application - Provide an option to exit 
+the application when the library staff is done managing the catalog.
+
+
+Sample Output - 
+
+-----------------------------------------------------------------------------------------------------
+
+Welcome to the Unique Library
+
+-----------------------------------------------------------------------------------------------------
+
+View the complete list of Books
+
+Issue a Book
+
+Return a Book
+
+Exit
+
+
+Please choose an option from the above menu: 1
+
+-----------------------------------------------------------------------------------------------------
+
+List of all Books
+
+-----------------------------------------------------------------------------------------------------
+
+Book ID Book Title Author Availability Issue Date
+
+101 HTML and CSS Jon Duckett Available Null
+
+102 JavaScript: The Good Parts Douglas C Available Null
+
+103 Learning Web Design Jennifer N CP2014 23-May-2023
+
+104 Responsive Web Design Ben Frain EC3142 17-May-2023
+
+
+Enter “Y” to return to the main menu or “N” to Exit: Y
+
+
+-----------------------------------------------------------------------------------------------------
+
+Welcome to the Unique Library
+
+-----------------------------------------------------------------------------------------------------
+
+View the complete list of Books
+
+Issue a Book
+
+Return a Book
+
+Exit
+
+
+Please choose an option from the above menu: 2
+
+
+-----------------------------------------------------------------------------------------------------
+
+Issue the Book
+
+-----------------------------------------------------------------------------------------------------
+
+
+Enter the Book ID: 102
+
+102 JavaScript: The Good Parts - Douglas C: Available
+
+Enter StudentID: ME2025
+
+Enter “C” to confirm: C
+
+BookID: 102 is Issued to ME2025
+
+-----------------------------------------------------------------------------------------------------
+
+
+Enter “Y” to return to the main menu or “N” to Exit: Y
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+Welcome to the Unique Library
+
+-----------------------------------------------------------------------------------------------------
+
+View the complete list of Books
+
+Issue a Book
+
+Return a Book
+
+Exit
+
+
+Please choose an option from the above menu: 3
+
+-----------------------------------------------------------------------------------------------------
+
+Return the Book
+
+-----------------------------------------------------------------------------------------------------
+
+Enter the Book ID: 104
+
+104 - Responsive Web Design by Ben Frain
+
+StudentID - EC3142
+
+Issue Date - 17-May-2023
+
+Delayed by - 4 days
+
+Delayed Charges - Rs. 40.00
+
+Enter “R” to confirm the return: R
+
+BookID: 104 is returned back
+
+-----------------------------------------------------------------------------------------------------
+
+
+Enter “Y” to return to the main menu or “N” to Exit: N
+
+
+Thank you for visiting  SmartPoint!
+
+Question 2:  Library Catalog Application using Files
+
+Points: 10
+
+Skill Mapping: Intermediate
+
+Description: Recreate the Library Catalog System Application with a new 
+functionality for saving data into a CSV file.
+
+In addition to the existing features, incorporate the ability to save the 
+catalog data to a CSV file and load data from a CSV file for each menu operation,
+allowing for data persistence between application runs.
+
+
+Save the data as a CSV file in below format - 
+
+Book ID
+
+Book Title
+
+Author
+
+Availability
+
+Issue Date
+
+101
+
+HTML and CSS
+
+Jon Duckett
+
+Available
+
+Null
+
+102
+
+JavaScript: The Good Parts
+
+Douglas C
+
+Available
+
+Null
+
+103
+
+Learning Web Design
+
+Jennifer N
+
+CP2014
+
+23-May-2023
+
+104
+
+Responsive Web Design
+
+Ben Frain
+
+EC3142
+
+17-May-2023
+
+
+
+Please follow these instructions for submitting your assignment:
+
+Upload the program to your GitHub repository, ensuring that you maintain 
+the proper folder structure as specified in the GitHub-Upload List.
+
+Once you have uploaded the program, submit the link to your GitHub 
+repository as your assignment submission.
+
+Kindly note that code files will not be accepted as part of the submissions.

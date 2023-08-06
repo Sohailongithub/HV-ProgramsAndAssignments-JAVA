@@ -11,24 +11,24 @@ public class empcomments1 {
 
         while (!exit) {
             System.out.println("\n=== Employee Management System ===");
-            System.out.println("1. Add new employee");
-            System.out.println("2. Display all employees");
-            System.out.println("3. Find employee with highest salary");
-            System.out.println("4. Find employee with lowest salary");
+            System.out.println("1. Add new employee ** ");
+            System.out.println("2. Display all employees ** ");
+            System.out.println("3. Find employee with highest salary ** ");
+            System.out.println("4. Find employee with lowest salary ** ");
             System.out.println("5. Find youngest employee");
             System.out.println("6. Find oldest employee");
             System.out.println("7. Find employees within age range");
-            System.out.println("8. Calculate total salary of all employees");
-            System.out.println("9. Calculate average age of employees");
-            System.out.println("10. Calculate average salary of employees");
-            System.out.println("11. Find employees above salary threshold");
+            System.out.println("8. Calculate total salary of all employees ** ");
+            System.out.println("9. Calculate average age of employees ** ");
+            System.out.println("10. Calculate average salary of employees ** ");
+            System.out.println("11. Find employees above salary threshold ** ");
             System.out.println("12. Update employee age");
             System.out.println("13. Update employee name");
             System.out.println("14. Remove employee by name");
             System.out.println("15. Remove employee by index");
             System.out.println("16. Sort employees by age");
             System.out.println("17. Sort employees by salary");
-            System.out.println("18. Exit");
+            System.out.println("18. Exit ** ");
             System.out.print("Enter your choice: ");
 
             int choice = scanner.nextInt();
@@ -108,12 +108,14 @@ public class empcomments1 {
             try {
                 BufferedWriter bw = new BufferedWriter(new FileWriter(fileName, true));
                 File f = new File(fileName); 
+                System.out.println(f.length()+ employeeName+","+ employeeAge+","+ employeeSalary);
                 if (f.length() == 0) {
                     bw.write("Name,Age,Salary");
-                    bw.close();
+                    
                 }
                 bw.newLine();
                 bw.write(employeeName+","+ employeeAge+","+ employeeSalary);
+                bw.close();
                 
                 
                 System.out.println("Employee details updated");
@@ -147,6 +149,7 @@ public class empcomments1 {
             } 
     }
 
+    // Case 3 
     public static void findEmployeeWithHighestSalary(String filename){
         try {
 
@@ -181,6 +184,8 @@ public class empcomments1 {
         }
     }
 
+
+        // case 4 
 
      public static void findEmployeeWithLowestSalary(String fileName){
          try {
@@ -217,7 +222,24 @@ public class empcomments1 {
         
 
     }
-    
+
+    // Case 5
+    public static void findYoungestEmployee(String filename){
+        try {
+            
+            
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
+
+
+    }
+
+
+
+
+
+    // case 8
     public static void calculateTotalSalary(String fileName) {
         String line;
 
@@ -243,7 +265,7 @@ public class empcomments1 {
     }   
 
    
-
+    // case 9
     public static void calculateAverageAge(String fileName) {
 
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
@@ -275,6 +297,8 @@ public class empcomments1 {
 
     }
 
+    // case 10
+
     public static void calculateAverageSalary(String fileName){
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))){
             String line;
@@ -286,12 +310,12 @@ public class empcomments1 {
             while ((line = br.readLine()) != null) {
                 if (isFirstLine) {
                     isFirstLine = false;
-                     continue;  //skip the header line
+                     continue;  //skip the header line 
 
                 }
 
                 String[] employeeData = line.split(",");
-                int salary = Integer.parseInt(employeeData[1].trim());
+                int salary = Integer.parseInt(employeeData[2].trim());
                 totalsalary += salary;
                 count++; 
 
