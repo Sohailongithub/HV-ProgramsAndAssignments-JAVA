@@ -1,0 +1,360 @@
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record: Tool Name   Description                                    Website
+java.lang.Exception: Invalid record format: Tool Name   Description                                    Website
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record: Tool A      Tool A is a powerful natural language          https://www.toola.com
+java.lang.Exception: Invalid record format: Tool A      Tool A is a powerful natural language          https://www.toola.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record:             processing library that can perform
+java.lang.Exception: Invalid record format:             processing library that can perform
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record: Tool B      Tool B is a cutting-edge computer vision       https://www.toolb.com
+java.lang.Exception: Invalid record format: Tool B      Tool B is a cutting-edge computer vision       https://www.toolb.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record:             platform that supports object detection,
+java.lang.Exception: Invalid record format:             platform that supports object detection,
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record:             image segmentation, and more.
+java.lang.Exception: Invalid record format:             image segmentation, and more.
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record: Tool C      Tool C is an AI-powered chatbot framework      https://www.toolc.com
+java.lang.Exception: Invalid record format: Tool C      Tool C is an AI-powered chatbot framework      https://www.toolc.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record:             that can be easily integrated into websites
+java.lang.Exception: Invalid record format:             that can be easily integrated into websites
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record:             and applications.
+java.lang.Exception: Invalid record format:             and applications.
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record: Tool D      Tool D is a reinforcement learning platform    https://www.toold.com
+java.lang.Exception: Invalid record format: Tool D      Tool D is a reinforcement learning platform    https://www.toold.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record:             designed for training and deploying
+java.lang.Exception: Invalid record format:             designed for training and deploying
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record:             autonomous agents in various environments.
+java.lang.Exception: Invalid record format:             autonomous agents in various environments.
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record: Tool E      Tool E is a data labeling tool with advanced   https://www.toole.com
+java.lang.Exception: Invalid record format: Tool E      Tool E is a data labeling tool with advanced   https://www.toole.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record:             annotation capabilities for training machine
+java.lang.Exception: Invalid record format:             annotation capabilities for training machine
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 1:36:07 PM FileValidator2 main
+SEVERE: Error processing record:             learning models.
+java.lang.Exception: Invalid record format:             learning models.
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:29 PM FileValidator2 main
+SEVERE: Error processing record: Tool Name   Description                                    Website
+java.lang.Exception: Invalid record format: Tool Name   Description                                    Website
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:30 PM FileValidator2 main
+SEVERE: Error processing record: Tool A      Tool A is a powerful natural language          https://www.toola.com
+java.lang.Exception: Invalid record format: Tool A      Tool A is a powerful natural language          https://www.toola.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:30 PM FileValidator2 main
+SEVERE: Error processing record:             processing library that can perform
+java.lang.Exception: Invalid record format:             processing library that can perform
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:30 PM FileValidator2 main
+SEVERE: Error processing record: Tool B      Tool B is a cutting-edge computer vision       https://www.toolb.com
+java.lang.Exception: Invalid record format: Tool B      Tool B is a cutting-edge computer vision       https://www.toolb.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:30 PM FileValidator2 main
+SEVERE: Error processing record:             platform that supports object detection,
+java.lang.Exception: Invalid record format:             platform that supports object detection,
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:30 PM FileValidator2 main
+SEVERE: Error processing record:             image segmentation, and more.
+java.lang.Exception: Invalid record format:             image segmentation, and more.
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:30 PM FileValidator2 main
+SEVERE: Error processing record: Tool C      Tool C is an AI-powered chatbot framework      https://www.toolc.com
+java.lang.Exception: Invalid record format: Tool C      Tool C is an AI-powered chatbot framework      https://www.toolc.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:30 PM FileValidator2 main
+SEVERE: Error processing record:             that can be easily integrated into websites
+java.lang.Exception: Invalid record format:             that can be easily integrated into websites
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:30 PM FileValidator2 main
+SEVERE: Error processing record:             and applications.
+java.lang.Exception: Invalid record format:             and applications.
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:30 PM FileValidator2 main
+SEVERE: Error processing record: Tool D      Tool D is a reinforcement learning platform    https://www.toold.com
+java.lang.Exception: Invalid record format: Tool D      Tool D is a reinforcement learning platform    https://www.toold.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:30 PM FileValidator2 main
+SEVERE: Error processing record:             designed for training and deploying
+java.lang.Exception: Invalid record format:             designed for training and deploying
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:30 PM FileValidator2 main
+SEVERE: Error processing record:             autonomous agents in various environments.
+java.lang.Exception: Invalid record format:             autonomous agents in various environments.
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:30 PM FileValidator2 main
+SEVERE: Error processing record: Tool E      Tool E is a data labeling tool with advanced   https://www.toole.com
+java.lang.Exception: Invalid record format: Tool E      Tool E is a data labeling tool with advanced   https://www.toole.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:30 PM FileValidator2 main
+SEVERE: Error processing record:             annotation capabilities for training machine
+java.lang.Exception: Invalid record format:             annotation capabilities for training machine
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 2:30:30 PM FileValidator2 main
+SEVERE: Error processing record:             learning models.
+java.lang.Exception: Invalid record format:             learning models.
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record: Tool Name   Description                                    Website
+java.lang.Exception: Invalid record format: Tool Name   Description                                    Website
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record: Tool A      Tool A is a powerful natural language          https://www.toola.com
+java.lang.Exception: Invalid record format: Tool A      Tool A is a powerful natural language          https://www.toola.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record:             processing library that can perform
+java.lang.Exception: Invalid record format:             processing library that can perform
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record: Tool B      Tool B is a cutting-edge computer vision       https://www.toolb.com
+java.lang.Exception: Invalid record format: Tool B      Tool B is a cutting-edge computer vision       https://www.toolb.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record:             platform that supports object detection,
+java.lang.Exception: Invalid record format:             platform that supports object detection,
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record:             image segmentation, and more.
+java.lang.Exception: Invalid record format:             image segmentation, and more.
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record: Tool C      Tool C is an AI-powered chatbot framework      https://www.toolc.com
+java.lang.Exception: Invalid record format: Tool C      Tool C is an AI-powered chatbot framework      https://www.toolc.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record:             that can be easily integrated into websites
+java.lang.Exception: Invalid record format:             that can be easily integrated into websites
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record:             and applications.
+java.lang.Exception: Invalid record format:             and applications.
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record: Tool D      Tool D is a reinforcement learning platform    https://www.toold.com
+java.lang.Exception: Invalid record format: Tool D      Tool D is a reinforcement learning platform    https://www.toold.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record:             designed for training and deploying
+java.lang.Exception: Invalid record format:             designed for training and deploying
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record:             autonomous agents in various environments.
+java.lang.Exception: Invalid record format:             autonomous agents in various environments.
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record: Tool E      Tool E is a data labeling tool with advanced   https://www.toole.com
+java.lang.Exception: Invalid record format: Tool E      Tool E is a data labeling tool with advanced   https://www.toole.com
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record:             annotation capabilities for training machine
+java.lang.Exception: Invalid record format:             annotation capabilities for training machine
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:21 PM FileValidator2 main
+SEVERE: Error processing record:             learning models.
+java.lang.Exception: Invalid record format:             learning models.
+	at FileValidator2.isValidRecord(FileValidator2.java:63)
+	at FileValidator2.main(FileValidator2.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record: Tool Name   Description                                    Website
+java.lang.Exception: Invalid record format: Tool Name   Description                                    Website
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record: Tool A      Tool A is a powerful natural language          https://www.toola.com
+java.lang.Exception: Invalid record format: Tool A      Tool A is a powerful natural language          https://www.toola.com
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record:             processing library that can perform
+java.lang.Exception: Invalid record format:             processing library that can perform
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record: Tool B      Tool B is a cutting-edge computer vision       https://www.toolb.com
+java.lang.Exception: Invalid record format: Tool B      Tool B is a cutting-edge computer vision       https://www.toolb.com
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record:             platform that supports object detection,
+java.lang.Exception: Invalid record format:             platform that supports object detection,
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record:             image segmentation, and more.
+java.lang.Exception: Invalid record format:             image segmentation, and more.
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record: Tool C      Tool C is an AI-powered chatbot framework      https://www.toolc.com
+java.lang.Exception: Invalid record format: Tool C      Tool C is an AI-powered chatbot framework      https://www.toolc.com
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record:             that can be easily integrated into websites
+java.lang.Exception: Invalid record format:             that can be easily integrated into websites
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record:             and applications.
+java.lang.Exception: Invalid record format:             and applications.
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record: Tool D      Tool D is a reinforcement learning platform    https://www.toold.com
+java.lang.Exception: Invalid record format: Tool D      Tool D is a reinforcement learning platform    https://www.toold.com
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record:             designed for training and deploying
+java.lang.Exception: Invalid record format:             designed for training and deploying
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record:             autonomous agents in various environments.
+java.lang.Exception: Invalid record format:             autonomous agents in various environments.
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record: Tool E      Tool E is a data labeling tool with advanced   https://www.toole.com
+java.lang.Exception: Invalid record format: Tool E      Tool E is a data labeling tool with advanced   https://www.toole.com
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record:             annotation capabilities for training machine
+java.lang.Exception: Invalid record format:             annotation capabilities for training machine
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
+Oct 11, 2023 4:54:54 PM FileValidator main
+SEVERE: Error processing record:             learning models.
+java.lang.Exception: Invalid record format:             learning models.
+	at FileValidator.isValidRecord(FileValidator.java:63)
+	at FileValidator.main(FileValidator.java:36)
+
