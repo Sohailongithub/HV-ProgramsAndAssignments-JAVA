@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.logging.LogManager;
 
 public class FileValidationAndTransformationValidation {
-    private static final Logger logger = LogManager.getLogger(FileValidationAndTransformation.class);
+    private static final Logger logger = LogManager(FileValidationAndTransformation.class);
 
     public static void main(String[] args) {
         int totalRecords = 0;
@@ -35,7 +35,7 @@ public class FileValidationAndTransformationValidation {
                     String invalidLog = String.format("Invalid record '%s': Expected 3 fields, got %d fields.", line,
                             fields.length);
                     invalidLogs.add(invalidLog);
-                    ((Object) logger).error(invalidLog);
+                    ((Object) logger).logger(invalidLog);
                 }
             }
         } catch (IOException e) {
