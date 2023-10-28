@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       var  arr = ["Product A - 1000 - Category 1 - In Stock",
+    "Product B - 20000 - Category 2 - In Stock",
+    "Product C - 15000 - Category 1 - Out of Stock",
+    "Product D - 250- Category 2 - In Stock",]
+
+    function result(i){
+        console.log(arr[i]);
+    }
+
+    result(2);
+
+    let s1 = "Product E - 550- Category 1 - In Stock";
+    arr.push(s1);
+    console.log(s1);
+
+    arr.splice(2, 1);
+    console.log(arr);
+
+    let s2 = arr.slice();
+    console.log(s2);
+
+    </script>
+</body>
+</html>

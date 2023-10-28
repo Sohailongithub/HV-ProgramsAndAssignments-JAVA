@@ -37,32 +37,98 @@
     //         console.log(names[i] +" has given " + feedbacks[i]);
     //     }
 
-        students=[
-        {
-            name: "Sohail",
-            feedback: 4
-        },
+        
+        // let beingHuman = "Human";
 
-        {
-            name:"Sanjay",
-            feedback: 5
-        },
-        {
-            name: "vaibhav",
-            feedback: 3
-        }
-    
-    ]
-        for(let i = 0; i < 3; i++){
-            if (students[i].feedback > 4){
-            console.log(`${students[i].name} gave a ${students[i].feedback}` + "Good Feedback")}
-            else{
-                console.log("Bad Feedback")}
-        }
-        
-    
-        
-        
+        // switch (beingHuman) {
+        //   case Animal = "dog":
+        //     console.log ("You are an animal");
+        //     break;
+
+        //     case Alien = "unkown": 
+        //     console.log ("You are an alien");
+        //     break;
+
+        //     case Human = "Adam":
+        //       console.log ("You are human");
+        //       break;
+
+        //       default :
+        //       console.log ("You are an Unknown creature");
+        //       break;
+
+        // }
+
+        //   console.log(beingHuman);
+
+
+        // for ( let i = 2; i <= 20; i+= 2){
+        //   console.log(i)
+        // }
+
+        let arr1 = [11,22,33,44,55,66];
+        console.log(arr1[0]);
+        arr1.push(2001);
+        console.log(arr1);
+        arr1.unshift(1999);
+        console.log(arr1);
+        arr1.pop()
+        console.log(arr1);
+        arr1.shift();
+        console.log(arr1);
+        arr1.splice(3, 1, 1999, 2001, 2002);
+        console.log(arr1);
+
+        // //string to an array
+        // let arr2= s1.split(" ");
+        // console.log(arr2);
+        // arr2[2]= 30000
+        // console.log(arr2);
+        // //array to string
+        // s1= arr2.join(" ")
+        // console.log(s1)
+
+        const userName = ['user1','user2','user3','user4'];
+            if (userName.includes('user5')){
+                console.log('This user name is already exist');
+            } else {
+                userName.push('user5')
+            }
+
+            console.log(userName);
+
+            const users = ["user1", "user2", "user3"];
+
+// if (users.indexOf("user2") != -1) {
+//   console.log("This user name already exist !");
+// } else {
+//   users.push("user4");
+// }
+
+if (users.indexOf("user4") != -1) {
+  console.log("This user name already exist !");
+} else {
+  users.push("user4");
+}
+
+console.log(users);
+
+let s= "whenever there is darkness there will be ray of light";
+let s2= "light";
+let arr= s.split(" ");
+
+if(s.includes(s2)){
+    console.log("word is present");
+}else{
+    console.log("word is missing");
+}
+let pos = arr.indexOf(s2);
+console.log(pos);
+arr[pos]= "dark";
+s = arr.join(" ");
+console.log(s);
+
+
     </script>
   </body>
 </html>
