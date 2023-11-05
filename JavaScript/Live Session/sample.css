@@ -1,0 +1,27 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.changecolor{
+  color: red;
+}
+
+.modal{
+ background-color: lightgray;
+ height: 100%;
+ width: 100%;
+ position: fixed;
+ top: 0;
+ left: 0;
+ display: none;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}

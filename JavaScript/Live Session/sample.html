@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div style="height: 100px;width: 100px;background-color: yellow;">
+        Hi Javascript DOM
+       <button onclick="changeColor()">Click me</button>
+       <button>Click me</button>
+    </div>
+    <ul class="lists">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>PineApple</li>
+    </ul> -->
+
+    <!-- 
+        Learning how to make Modal ?
+        login : email ,password and sumit btn;
+        background of the login , this should in position fixed
+     -->
+     <div class="header" style="background-color: yellow;">
+        <button id="login">Login</button>
+        <div class="emal">
+            Email: 
+        </div>
+        <div class="username">
+            Username:
+        </div>
+     </div>
+     <div class="modal">
+        <input type="text" name="username" placeholder="username">
+        <input type="email" name="email" id="email" placeholder="email">
+        <button>click</button>
+        <button id="close">X</button>
+    
+     </div>
+     <!-- take email,username :
+      clicks on OK : store the data in obj  and also close the modal
+       Populate the email and username on the header section
+       
+       1.handling the input boxes value and store the values in obj
+       2.User clicks on Ok , you close the Modal
+       3.Select the header section where email and username has to be populated
+       4.InnerHTML or innerText.
+    -->
+    <script src="./index.js"></script>
+</body>
+</html>
