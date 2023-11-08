@@ -4,7 +4,7 @@ const customers = [
     { customerID: 1, customerName: 'John Doe', totalBillingAmount: 2500 },
     { customerID: 2, customerName: 'Jane Doe', totalBillingAmount: 3500 },
     { customerID: 3, customerName: 'Bob Smith', totalBillingAmount: 4000 },
-    { customerID: 4, customerName: 'Alice Johnson', totalBillingAmount: 2800 },
+    { customerID: 4, customerName: 'Alice Johnson', totalBillingAmount: 7000 },
   ];
   
   const filteredCustomers = customers
