@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.logging.LogManager;
 
 public class FileValidationAndTransformationValidation {
-    private static final Logger logger = LogManager(FileValidationAndTransformation.class);
+    private static final Logger logger = LogManager(FileValidationAndTransformationValidation.class);
 
     public static void main(String[] args) {
         int totalRecords = 0;
@@ -61,5 +61,9 @@ public class FileValidationAndTransformationValidation {
         for (String log : invalidLogs) {
             System.out.println("  - " + log);
         }
+    }
+
+    private static Logger LogManager(Class<FileValidationAndTransformationValidation> class1) {
+        return null;
     }
 }

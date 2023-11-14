@@ -1,4 +1,4 @@
-package arrayAndFileHandling_Assignment;
+package GradedAssignmentonArraysandFileHandling;
 
 import java.text.DateFormat;
 import java.text.ParseException;
