@@ -11,7 +11,7 @@
 // const divClasses =document.getElementsByClassName('body');//HTML collection []
 // console.log(divClasses);
 
-const divClasses =document.querySelector('.body');
+// const divClasses =document.querySelector('.body');
 
 //QuerSelectorAll : Nodelist[]
 
@@ -23,11 +23,13 @@ const divClasses =document.querySelector('.body');
 // console.log(divClasses.innerText);
 // console.log(divClasses.value);
 
-const inputTag =document.querySelector(".input");
-// console.log(inputTag.value)
-inputTag.value="Hero"
+// const inputTag =document.querySelector(".input");
+// // console.log(inputTag.value)
+// inputTag.value="Hero"
+name:'name', id= 'name', type='String'
+const id = getElementbyid('name');
+console.log(id);
 
-
-const introTag =document.querySelector('#intro');
-introTag.style.color="red";
-introTag.innerHTML="Hi batch 11"
+// const introTag =document.querySelector('#intro');
+// introTag.style.color="red";
+// introTag.innerHTML="Hi batch 11"
