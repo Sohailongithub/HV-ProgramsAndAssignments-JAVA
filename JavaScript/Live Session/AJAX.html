@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        const obj = {
+     name: "Mark",
+    job: "Devops"
+}      
+
+const xhr = new XMLHttpRequest();
+xhr.open('POST', "https://reqres.in/api/user");
+xhr.setRequestHeader('Content-Type','application/json;charset=UTF-8')
+xhr.send(JSON.stringify({ name:"Batman", job:"devops"}))
+xhr.onload = function () {
+    result = JSON.parse(xhr.responseText);
+    console.log(result);
+}
+    </script>
+</body>
+</html>
+
