@@ -24,35 +24,48 @@
 
 //addEventListener('eventtype',function)
 
-// Click event
-let mydiv = document.querySelector(".sample");
-let innerDivValue = 0;
-mydiv.addEventListener('click', function () {
-    // alert("your div has been clicked")
-    // mydiv.style.color="red"
-    mydiv.style.height = "200px"
-    mydiv.style.width = "200px"
-    // on click sample1 text should be replaced with herovired
-    //    mydiv.innerText ="Herovired"
-    mydiv.innerHTML = `<div style='background-color: red;height: 50px;width: 50px;'>
-  ${innerDivValue}
-  </div>
+// // Click event
+// let mydiv = document.querySelector(".sample");
+// let innerDivValue = 0;
+// mydiv.addEventListener('click', function () {
+//     // alert("your div has been clicked")
+//     // mydiv.style.color="red"
+//     mydiv.style.height = "200px"
+//     mydiv.style.width = "200px"
+//     // on click sample1 text should be replaced with herovired
+//     //    mydiv.innerText ="Herovired"
+//     mydiv.innerHTML = `<div style='background-color: red;height: 50px;width: 50px;'>
+//   ${innerDivValue}
+//   </div>
   
   
-  <button id="btn">Increment</button>
-  `
-  const btn =document.getElementById('btn');
-  console.log(btn);
-  btn.addEventListener('click',function(){
-    alert("btn is clicked")
-    //update the counter logic
-  })
+//   <button id="btn">Increment</button>
+//   `
+//   const btn =document.getElementById('btn');
+//   console.log(btn);
+//   btn.addEventListener('click',function(){
+//     alert("btn is clicked")
+//     //update the counter logic
+//   })
 
-}) 
-// btn should be outside of whole blue box ;
+// }) 
+// // btn should be outside of whole blue box ;
 
-let boxShadow = document.querySelector('.boxShadow');
-boxShadow.addEventListener('boxShadow', function(){
-    boxShadow.style.background= 'red';
+// let boxShadow = document.querySelector('.boxShadow');
+// boxShadow.addEventListener('boxShadow', function(){
+//     boxShadow.style.background= 'red';
 
-})
+// })
+
+
+// var a = 1;
+
+// var b = 10;
+
+// while(b>=a){
+
+// console.log(a++);
+
+// b--;
+
+// }
