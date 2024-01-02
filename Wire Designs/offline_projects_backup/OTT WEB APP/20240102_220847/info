@@ -1,0 +1,113 @@
+{
+  "uuid": "0cf12cca2c7f42865889dc9e396786cc",
+  "path": "Offline/OTT WEB APP",
+  "name": "OTT WEB APP",
+  "content": "Sign up or login page \n",
+  "created_at": "2024-01-02 21:14:23",
+  "updated_at": "2024-01-02 22:08:47",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a6440dd34edc43fe753fc4be4cd0e618",
+      "title": "Who's Watching",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1704212046,
+      "createTime": 1704210264,
+      "histories": [],
+      "created_at": "2024-01-02 21:14:24",
+      "updated_at": "2024-01-02 21:44:06"
+    },
+    {
+      "uuid": "1f69210150eca57d083a24a50d5e9ff2",
+      "title": "Landing Page",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1704212188,
+      "createTime": 1704211009,
+      "histories": [],
+      "created_at": "2024-01-02 21:26:49",
+      "updated_at": "2024-01-02 21:46:28"
+    },
+    {
+      "uuid": "79d3623fc23a518f644cde1133958b13",
+      "title": "Login Page",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1704212791,
+      "createTime": 1704212791,
+      "histories": [],
+      "created_at": "2024-01-02 21:56:31",
+      "updated_at": "2024-01-02 21:56:31"
+    },
+    {
+      "uuid": "66b461a01f251718fc10d267fbae9ad2",
+      "title": "Sign Up Now",
+      "description": "",
+      "docType": "1",
+      "master": "7bbe5e2cf48619cc53d6da318b88628e",
+      "thumb": "/images/thumb-default.png",
+      "components": {},
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ]
+      ],
+      "updateTime": 1704213527,
+      "createTime": 1704213457,
+      "histories": [],
+      "created_at": "2024-01-02 22:07:37",
+      "updated_at": "2024-01-02 22:08:47"
+    }
+  ],
+  "sort": [
+    "a6440dd34edc43fe753fc4be4cd0e618",
+    "1f69210150eca57d083a24a50d5e9ff2",
+    "79d3623fc23a518f644cde1133958b13",
+    "66b461a01f251718fc10d267fbae9ad2"
+  ],
+  "title": "OTT WEB APP",
+  "foldername": "OTT WEB APP",
+  "schfilename": "OTT WEB APP.json",
+  "schfilemtime": 1704213527435
+}
