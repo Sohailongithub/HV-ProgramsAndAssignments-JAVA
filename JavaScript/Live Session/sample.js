@@ -57,13 +57,48 @@
 // })
 // // console.log(obj,"our obj");
 
-const loginbtn =document.querySelector("#login");
-const Modal =document.querySelector(".modal");
-const closebtn =document.querySelector('#close');
-loginbtn.addEventListener('click',()=>{
-  Modal.style.display="flex"
-})
+// const loginbtn =document.querySelector("#login");
+// const Modal =document.querySelector(".modal");
+// const closebtn =document.querySelector('#close');
+// loginbtn.addEventListener('click',()=>{
+//   Modal.style.display="flex"
+// })
 
-closebtn.addEventListener('click',()=>{
-    Modal.style.display="none"
-})
+// closebtn.addEventListener('click',()=>{
+//     Modal.style.display="none"
+// })
+
+
+
+var a = 10;
+
+{
+  var b = 100;
+  let c = 200;
+  const d = 300;
+  console.log(b);
+  console.log(c);
+  console.log(d);
+  console.log(a);
+}
+
+
+// console.log(see);
+
+// This is temoprial dead zone 
+
+let see = "me";
+
+console.log(see);
+
+// closure 
+
+function x(){
+  var a = 15;
+  function y(){
+    console.log(a);
+  }
+  y();
+}
+x();
+
