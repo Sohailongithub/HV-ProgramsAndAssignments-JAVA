@@ -151,13 +151,63 @@ app.get("/grade/:Id",async(req,res) => {
 })
 
 // Progress Report by Student's Subject and Grade API 
-app.post("/progressReport", async(req,res) => {
-    
-})
+app.post("/std_report", async (req, res) => {
+  try {
+    const { student, subjects } = req.body;
+    const studentDetail = await Student.findById(student);
+    if (!studentDetail) {
+      res.status(404).json({
+        message: "Student Not found",
+      });
+    }
 
+    const subject_enrolled_subject = studentDetail.enrolledSubjects;
+    console.log("subjects", subject_enrolled_subject);
+    console.log("subjects req body", subjects);
+    console.log("student", student);
+
+    subjects.forEach(async (subjectObj) => {
+      console.log(subjectObj.subject, subjectObj.grade);
+      console.log(student_enrolled_subject.includes(subjectObj.subject));
+      if (student_enrolled_subject.includes(subjectObj.subject)) {
+        let student_repord_Card = await ReportCard.findOne({
+          student: studentDetail._id,
+        });
+        console.log("find", student_repord_Card);
+
+        if (!student_repord_Card) {
+          let progressReport = new ReportCard({
+            student: studentDetail._id,
+            subjects: [],
+          });
+          console.log(progressReport);
+
+          progressReport.subjects.push({
+            subject: subjectObj.subject,
+            grade: subjectObj.grade,
+          });
+          progressReport.save();
+        } else {
+          console.log("else block", student_repord_Card);
+          student_repord_Card.subjects.push({
+            subject: subjectObj.subject,
+            grade: subjectObj.grade,
+          });
+          student_repord_Card.save();
+        }
+      } else {
+        console.log("not enrolled subject");
+      }
+    });
+    res.send("on report card page");
+  } catch (error) {
+    res.json({ error: error.message });
+  }
+}); 
 
 // My server is listening to port 3000
 app.listen(3000, () => {
   console.log("server started at 3000");
 });
+
 
