@@ -1,0 +1,48 @@
+<!-- templates/contact_form.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+    <title>To-Do List App</title>
+</head>
+<body>
+    <h1>To-Do List</h1>
+        <ul method="POST" action="/" id="To-Do-List">
+            <li>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required><br>
+
+            <label for="text-box">Text</label>
+            <input type="text" id="text-box" name="text-box" row="2" column="4" required><br>
+            <button type="submit">Submit</button>    
+            </li>
+
+            <li>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required><br>
+
+            <label for="text-box">Text</label>
+            <input type="text" id="text-box" name="text-box" row="2" column="4" required><br>
+            <button type="submit">Submit</button>    
+            </li>
+
+            <li>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required><br>
+
+            <label for="text-box">Text</label>
+            <input type="text" id="text-box" name="text-box" row="2" column="4" required><br>
+            <button type="submit">Submit</button>    
+            </li>
+        </ul>
+  
+    {%if T and TB%}
+        <h1>Details</h1>
+        <p>Title : {{T}}</p>
+        <p>Text Box :{{TB}}</p>
+        {%endif%}
+</body>
+</html>
