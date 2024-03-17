@@ -1,0 +1,164 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+    color: #333;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 400px;
+}
+
+.form-container {
+    padding: 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+a {
+    text-align: center;
+    display: block;
+    color: #333;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3498db;
+}
+
+.register-container {
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center; /* Align text in the center */
+}
+
+@media (max-width: 600px) {
+    .container, .register-container {
+        width: 100%;body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+    color: #333;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 400px;
+}
+
+.form-container {
+    padding: 40px;
+}
+
+h2 {
+    /* text-align: center; */
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+a {
+    text-align: center;
+    display: block;
+    color: #333;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3498db;
+}
+
+.register-container {
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center; /* Align text in the center */
+}
+
+@media (max-width: 600px) {
+    .container, .register-container {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+        border-radius: 0;
+    }
+}
