@@ -28,8 +28,7 @@ function longestsubstring(s) {
     }
   }
   return s.substring(longeststring, longeststring + maxlength);
-}
-let input = "abcabcdbb";
+} input = "abcabcdbb";
 let result = longestsubstring(input);
 console.log(result);
 
@@ -47,6 +46,6 @@ function twoSum(input, target) {
 }
 
 
-  let input = [1, 4, 2, 2, 5, 7];
+ let input = [1, 4, 2, 2, 5, 7];
   let target = 5;
   console.log(twoSum(input, target));
